@@ -5,6 +5,8 @@ import officeVideo from './assets/office.mp4'
 import loogo from './assets/Loogo.png'
 import circles from './assets/circles.png'
 import hijab from './assets/hijab.jpg'
+<BrowserRouter basename="/Job-Application-portal">
+
 
 
 function App() {
