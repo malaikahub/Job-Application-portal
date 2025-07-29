@@ -1,5 +1,11 @@
 import { useEffect, useRef, useState } from 'react'
 import './App.css'
+import logo from './assets/logo.png'
+import officeVideo from './assets/office.mp4'
+import loogo from './assets/Loogo.png'
+import circles from './assets/circles.png'
+import hijab from './assets/hijab.jpg'
+
 
 function App() {
   const formRef = useRef(null)
@@ -188,12 +194,12 @@ useEffect(() => {
       <div className="custom-cursor"></div>
 
       <nav className="navbar">
-        <div className="navbar-left">
-          <img src="/circles.png" alt="Left Logo" className="left-logo" />
+        <div className="navbar-left"
+          <img src={circles} alt="Left Logo" className="left-logo" />
         </div>
 
         <div className="navbar-center">
-          <img src="/Loogo.png" alt="Main Logo" className="main-logo" />
+          <img src={loogo} alt="Main Logo" className="main-logo" />
           <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Home</button>
           <button onClick={handleFormClick}>Form</button>
           <button onClick={() => scrollTo(footerRef)}>About</button>
@@ -204,8 +210,7 @@ useEffect(() => {
       <section className="home">
         <div>
         <video autoPlay loop muted playsInline className="background-video">
-          <source src="/office.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
+            <source src={officeVideo} type="video/mp4" />
         </video>
         <div className="animated-box left-box">
   <ul className="box-list">
@@ -224,7 +229,8 @@ useEffect(() => {
 </div>
 
         <div className="home-content">
-          <img src="/logo.png" alt="Apex Marketing" className="home-image" />
+          <img src={logo} alt="Apex Marketing" className="home-image" />
+          <img src="/logo.png" />
           <h1>Welcome to Our Job Portal</h1>
           <p>Your future starts here.</p>
         </div>
@@ -333,7 +339,7 @@ useEffect(() => {
           </div>
 
           <div className="contact-image-panel">
-            <img src="/hijab.jpg" alt="Office" />
+            <img src={hijab} alt="Office" />
           </div>
 
           <div className="contact-form-panel">
