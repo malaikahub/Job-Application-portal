@@ -1,10 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
 import './App.css';
-import logo from './assets/logo.png';
-import officeVideo from './assets/office.mp4';
-import loogo from './assets/Loogo.png';
-import circles from './assets/circles.png';
-import hijab from './assets/hijab.jpg';
 
 function App() {
   const formRef = useRef(null);
@@ -125,10 +120,10 @@ function App() {
 
       <nav className="navbar">
         <div className="navbar-left">
-          <img src={circles} alt="Left Logo" className="left-logo" />
+          <img src="/circles.png" />
         </div>
         <div className="navbar-center">
-          <img src={loogo} alt="Main Logo" className="main-logo" />
+          <img src="/Loogo.png" />
           <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Home</button>
           <button onClick={handleFormClick}>Form</button>
           <button onClick={() => scrollTo(footerRef)}>About</button>
@@ -138,7 +133,7 @@ function App() {
 
       <section className="home">
         <video autoPlay loop muted playsInline className="background-video">
-          <source src={officeVideo} type="video/mp4" />
+          <source src="/office.mp4" type="video/mp4" />
         </video>
         <div className="animated-box left-box" ref={leftRef}>
           <ul className="box-list">
@@ -156,7 +151,7 @@ function App() {
           </ul>
         </div>
         <div className="home-content">
-          <img src={logo} alt="Apex Marketing" className="home-image" />
+          <img src="/logo.png" />
           <h1>Welcome to Our Job Portal</h1>
           <p>Your future starts here.</p>
         </div>
@@ -259,7 +254,7 @@ function App() {
           </div>
 
           <div className="contact-image-panel">
-            <img src={hijab} alt="Office" />
+            <img src="/hijab.jpg" />
           </div>
 
           <div className="contact-form-panel">
@@ -272,7 +267,7 @@ function App() {
             </form>
 
             <div className="form-logo">
-              <img src={loogo} alt="Jet FormBuilder" />
+              <img src="/Loogo.png" />
             </div>
           </div>
         </div>
