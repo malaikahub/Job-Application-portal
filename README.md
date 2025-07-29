@@ -1,17 +1,39 @@
-<<<<<<< HEAD
-# React + Vite
+# 🌐 Job Application Portal
+Welcome to the Job Application Portal — a modern and responsive web application built using React.js and Bootstrap 5. This project showcases a dynamic and user-friendly interface for submitting and managing job applications.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Live Demo
+> [🔗 View Website](https://malaikahub.github.io/Job-Application-Portal)  
 
-Currently, two official plugins are available:
+## 📁 Project Structure
+JobApplicationPortal/
+│
+├── public/
+│ └── index.html
+│
+├── src/
+│ ├── App.jsx
+│ ├── App.css
+│ ├── index.js
+│ ├── components/
+│ │ └── Navbar.jsx (if any)
+│ └── assets/
+│ └── circles.png
+│
+├── package.json
+└── README.md
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ⚙️ Technologies Used
+- React.js – Component-based frontend framework
+- Bootstrap 5 – Responsive UI framework
+- HTML5 & CSS3
+- JavaScript (ES6+)
+- GitHub Pages – For deployment
 
-## Expanding the ESLint configuration
+## 🧠 Key Features
+✅ Responsive navigation bar  
+✅ Clean, minimal layout using Bootstrap  
+✅ Reusable components structure  
+✅ Proper accessibility with alt attributes  
+✅ Fixed ESLint warnings for production readiness  
+✅ Ready for future expansion (forms, backend integration)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Job-Application-portal
-A modern Job Application Portal built for internship recruitment at Apex Marketing Solutions.
->>>>>>> 4c0f667a9b0a066e7061900812f35d71542fede4
